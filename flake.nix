@@ -9,8 +9,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     substrate = {
-      # Published repo uses: url = "github:pleme-io/substrate";
-      url = "git+file:///Users/drzzln/code/github/pleme-io/substrate";
+      url = "github:pleme-io/substrate";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
